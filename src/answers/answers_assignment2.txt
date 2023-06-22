@@ -1,0 +1,2 @@
+part one: Your puzzle answer is 490.
+part two: Your puzzle answer is 921.

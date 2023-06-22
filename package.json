@@ -5,12 +5,17 @@
   "main": "index.ts",
   "scripts": {
     "build": "npx tsc",
+    "dev": "npx tsc-watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Wesley Lether",
-  "license": "MIT",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.6.0"
+  },
   "devDependencies": {
+    "@types/figlet": "^1.5.6",
     "@types/node": "^20.3.1",
     "@typescript-eslint/eslint-plugin": "^5.60.0",
     "eslint": "^8.43.0",
